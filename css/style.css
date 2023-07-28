@@ -141,9 +141,21 @@ img {
 
     .col{
        min-width: 100%;
+       margin: 0;
     }
 
-    .card{
-        padding: 50px;
+    .col p{
+        padding: 0 50px 50px 50px;
+    }
+    
+    .steps{
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .why-us{
+        padding-top: 50px;
+        background-color: black;
+        margin-bottom: 0;
     }
 }
