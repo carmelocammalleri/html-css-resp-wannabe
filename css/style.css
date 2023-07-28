@@ -133,3 +133,17 @@ img {
         display: flex;
     }
 }
+@media screen and (max-width:480px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col{
+       min-width: 100%;
+    }
+
+    .card{
+        padding: 50px;
+    }
+}
